@@ -1,0 +1,4 @@
+Select the 'second highest salary' from 'Employee' table.
+
+SELECT MAX(Salary) from Employee WHERE Salary NOT IN 
+(SELECT MAX(Salary) from Employee);
