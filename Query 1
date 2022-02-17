@@ -1,0 +1,6 @@
+Select the names from the database that have 5 charters and ends with 'a'.
+
+QUERY:
+SELECT * FROM table_name WHERE Name LIKE '____a';
+
+# The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
