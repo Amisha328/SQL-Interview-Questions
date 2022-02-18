@@ -1,0 +1,4 @@
+Select the highest salary from Employee database
+
+QUERY:
+SELECT MAX(Salary) FROM Employee;
