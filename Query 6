@@ -1,0 +1,6 @@
+Display department wise highest salary from 'Company' table
+
+QUERY:
+SELECT DEPName, MAX(Salary) FROM Company 
+GROUP BY DEPNo
+
