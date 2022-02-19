@@ -1,0 +1,14 @@
+Display alternate rows from 'empdata' table
+
+# Display even rows
+
+QUERY:
+SELECT * FROM empdata
+WHERE mod(id, 2) = 0;
+
+# Display odd rows
+
+QUERY:
+SELECT * FROM empdata
+WHERE mod(id, 2) = 1;
+
