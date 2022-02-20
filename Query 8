@@ -1,0 +1,6 @@
+Find duplicate values from Dep table department wise.
+
+QUERY:
+SELECT COUNT(*), DEPNo FROM Dep 
+GROUP BY DEPNo
+HAVING COUNT(*) > 1
