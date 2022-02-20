@@ -1,0 +1,5 @@
+Display number of employees department wise.
+
+QUERY:
+SELECT DEPNo, COUNT(*) FROM Department 
+GROUP BY DEPNo;
