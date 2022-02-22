@@ -1,0 +1,6 @@
+Display data in increasing order of their frequency from 'Dep' table
+
+QUERY:
+SELECT COUNT(*), DEPNo FROM Dep 
+GROUP BY DEPNo
+ORDER BY COUNT(*)
