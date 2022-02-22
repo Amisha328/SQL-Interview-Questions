@@ -1,0 +1,10 @@
+DELETE All duplicate rows from 'Course' table.
+
+QUERY:
+DELETE FROM Courses
+WHERE Course_id IN
+(
+SELECT Course_id FROM Courses
+GROUP BY Course_id
+HAVING COUNT(*) > 1
+);
