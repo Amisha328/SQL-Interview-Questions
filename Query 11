@@ -1,0 +1,5 @@
+Find all the employees whose salary is between 50000 to 100000 from Employee table
+
+QUERY:
+SELECT * FROM Employee 
+WHERE Salary BETWEEN '50000' AND '100000';
